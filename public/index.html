@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odrawing TheYassir</title>
+    <script
+      src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+      integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+      crossorigin="anonymous"
+      defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"
+      defer></script>
+    <script src="/js/script.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <header><h1>O'drawing TheYassir</h1></header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <form id="toolbox">
+            <input
+              type="color"
+              name="strokeColor"
+              id="strokeColor"
+              value="#000000" />
+            <input
+              type="range"
+              name="strokeWeight"
+              id="strokeWeight"
+              min="1"
+              max="10"
+              value="1" />
+          </form>
+          <div id="canvas"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

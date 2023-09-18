@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        "p5js"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true,
+        "p5js/p5": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:p5js/p5"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    },
+    "globals": {
+        "io": true
+    }
+}

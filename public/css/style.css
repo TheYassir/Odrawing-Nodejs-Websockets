@@ -1,0 +1,51 @@
+body {
+  cursor: none;
+  background-color: rgb(91, 91, 91);
+  height: 100vh;
+  width: 100vw;
+}
+
+body > header {
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+body > header > h1 {
+  margin: 0 !important;
+  color: whitesmoke;
+}
+
+body .container {
+  margin: 0 !important;
+}
+
+.row {
+  width: 99vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+#toolbox {
+  width: 300px;
+  padding-right: 50px;
+}
+
+.cursor {
+  display: inline-block;
+  position: absolute;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  font-size: 10px;
+  height: 35px;
+  padding-left: 15px;
+  pointer-events: none;
+  background-color: black;
+  -webkit-mask-image: url(/images/cursor.svg);
+  mask-image: url(/images/cursor.svg);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
